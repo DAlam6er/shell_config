@@ -1,11 +1,9 @@
-# https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html
-#
+alias cdc="cd ~/prog/c"
+alias cdjava="cd ~/prog/Java/"
+alias cdvba="cd /mnt/d/prog/VBA/Projects/TSAR/ovktsar"
+alias cdpascal="cd /mnt/d/prog/pascal/src"
+
 alias gccansi="gcc -ansi -Wall -g -O0 -Wshadow -pedantic -Wextra"
-alias goc="cd ~/prog/c"
-alias gojava="cd ~/prog/Java/"
-alias goVBA="cd /mnt/d/Prog/VBA/Projects/TSAR/ovktsar"
-alias goPascal="cd /mnt/d/Prog/pascal/src"
-alias gospring="cd ~/prog/Java/spring/"
 alias ls="lsd -F"
 alias la="lsd -AF"
 alias ll="lsd -lAF"
