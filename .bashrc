@@ -118,7 +118,7 @@ PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[
 export EDITOR='vim'
 
 vimmed() {
-    tmux new-session -d "vim $@" \; split-window -h -d 'man vim' \; attach;
+    tmux new-session -d "vim $@" \; split-window -h -d 'vim vim_tips.md' \; attach;
 }
 
 case $0 in
