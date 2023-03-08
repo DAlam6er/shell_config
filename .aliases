@@ -1,10 +1,7 @@
-if [[ "${NAME}" == APASHKIN ]]; then
-    alias cdjava="cd /mnt/c/Users/a.pashkin/ideaProjects"
-elif [[ "${NAME}" == TROOPER ]]; then
-    alias cdjava="cd ~/prog/java/IDEA"
+alias cdjava="cd $(wslpath "$(wslvar USERPROFILE)")/ideaProjects"
+if [[ "${NAME}" == TROOPER ]]; then
     alias cdvba="cd /mnt/d/prog/VBA/Projects/TSAR/ovktsar"
     alias cdpascal="cd /mnt/d/prog/pascal/src"
-    alias cdc="cd ~/prog/c"
 fi
 
 alias gccansi="gcc -ansi -Wall -g -O0 -Wshadow -pedantic -Wextra"
