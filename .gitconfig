@@ -9,6 +9,7 @@ st = status
 br = branch
 sw = switch
 hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+aliases = config --list --show-origin
 last = log -1 HEAD --stat
 list = config --global -l
 del = branch -D
