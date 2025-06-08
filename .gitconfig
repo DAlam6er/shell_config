@@ -2,15 +2,17 @@
 	email = anton.zep@gmail.com
 	name = Anton Pashkin
 [alias]
+a = add
 co = checkout
 ci = commit
 st = status
 br = branch
+sw = switch
 hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 last = log -1 HEAD --stat
 list = config --global -l
 del = branch -D
 short = log --pretty=format:'%C(yellow)%h %ad%Cred%d %Creset%s%Cblue [%cn]' --decorate --date=short
-oneline = log --oneline --all --graph
+loga = log --oneline --graph --all
 type = cat-file -t
 dump = cat-file -p
